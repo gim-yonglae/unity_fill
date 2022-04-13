@@ -63,7 +63,7 @@ public class unity : MonoBehaviour
         int health = 30;
         int mana = 25;
         bool isBad
-        int
+        int = 1
         
     }
 

@@ -17,7 +17,7 @@ public class PlayerHP : MonoBehaviour
 
     private void TakeDamge(float damage)
     {
-        //현제 체력을 damge만큼 감소
+        //현제 체력을 damage만큼 감소
         currentHp -= damage;
 
         StopCoroutine("HitColorAnimation");

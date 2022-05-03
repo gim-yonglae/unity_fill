@@ -15,7 +15,7 @@ public class PlayerHP : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    private void TakeDamge(float damage)
+    private void TakeDamage(float damage)
     {
         //현제 체력을 damage만큼 감소
         currentHp -= damage;

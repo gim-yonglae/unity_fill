@@ -15,10 +15,10 @@ public class PlayerHP : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    private void TakeDamge(float damge)
+    private void TakeDamge(float damage)
     {
         //현제 체력을 damge만큼 감소
-        currentHp -= damge;
+        currentHp -= damage;
 
         StopCoroutine("HitColorAnimation");
         StartCoroutine("HitColorAnimation");
